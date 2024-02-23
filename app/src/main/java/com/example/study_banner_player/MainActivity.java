@@ -10,6 +10,7 @@ import android.app.PictureInPictureParams;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.youth.banner.Banner;
 import com.youth.banner.adapter.BannerAdapter;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Drawable> img = new ArrayList<>();
     private Banner banner;
     private ViewPager viewPager;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
