@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
+import androidx.viewpager.widget.ViewPager;
 
 import android.app.PictureInPictureParams;
 import android.graphics.drawable.Drawable;
@@ -21,7 +22,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     //    private int[] img = {R.drawable.one, R.drawable.two, R.drawable.there, R.drawable.four};
-    private List<Drawable> img = new ArrayList<>();    private Banner banner;
+    private List<Drawable> img = new ArrayList<>();
+    private Banner banner;
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
