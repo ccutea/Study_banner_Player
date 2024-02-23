@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Drawable> img = new ArrayList<>();
     private Banner banner;
     private ViewPager viewPager;
+  private ViewPager viewPager2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
